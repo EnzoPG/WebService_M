@@ -37,7 +37,7 @@ $url = "http://sjc.salvar.cemaden.gov.br/WebServiceSalvar-war/resources/layer/id
             <tbody class="table-hover">
                 <?php
                 for($i=2000;$i<2100;$i++){
-                    $contents = json_decode(puxando_pag_json($url . $i++), true);
+                    $contents = json_decode(puxando_pag_json($url . $i), true);
                     $id = $contents["id"];
                     $nome = $contents["name"];
                     $img = $contents["imageDateTime"];
