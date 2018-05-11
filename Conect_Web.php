@@ -9,7 +9,7 @@ function puxando_pag_json($url) {
     curl_close($curl_lind);
     return $volta;
 }
-$url = "http://sjc.salvar.cemaden.gov.br/WebServiceSalvar-war/resources/layer/id/";
+$url = ""; //WebService's URL goes here
 ?>
 
 <html>
